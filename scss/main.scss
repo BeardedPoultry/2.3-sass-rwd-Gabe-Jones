@@ -20,6 +20,8 @@ nav a {
   text-color: white;
   height: 40px;
   padding-top: 10px;
+  color: white;
+
 }
 a {
   text-decoration: none;
@@ -27,7 +29,7 @@ a {
 .backgroundlogo {
   @include span-columns(12);
   background-image: url("../img/top-image.png");
-
+  margin-top: 20px;
 }
 h1 {
 
@@ -37,9 +39,10 @@ h1 {
   border-width: medium;
   border-color: white;
   background-color: white;
+  margin-top: 20px
 }
 .article .articlesub {
-  @include span-columns(4 of 12);
+  @include span-columns(3 of 12);
 }
 
 .article a {
@@ -52,6 +55,7 @@ ul {
   height: 5%;
   list-style-type: none;
   float: right;
+
 }
 .socialLinkTop {
   display: inline-block;
