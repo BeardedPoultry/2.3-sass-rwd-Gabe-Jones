@@ -33,23 +33,54 @@ body {
   margin-left: 10%;
   margin-right: 10%; }
 
-.menu {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
-  .menu:last-child {
-    margin-right: 0; }
-
-.menu ul {
+nav a {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 23.23176%;
   background-color: red;
-  text-align: center; }
-  .menu ul:last-child {
+  text-align: center;
+  text-color: white;
+  height: 40px;
+  padding-top: 10px; }
+  nav a:last-child {
     margin-right: 0; }
+
+a {
+  text-decoration: none; }
+
+.backgroundlogo {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-image: url("../img/top-image.png"); }
+  .backgroundlogo:last-child {
+    margin-right: 0; }
+
+.article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  border-width: medium;
+  border-color: white;
+  background-color: white; }
+  .article:last-child {
+    margin-right: 0; }
+
+.article .articlesub {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .article .articlesub:last-child {
+    margin-right: 0; }
+
+.article a {
+  text-decoration: none;
+  color: red;
+  text-align: center; }
 
 ul {
   display: inline-block;

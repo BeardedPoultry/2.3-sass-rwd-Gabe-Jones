@@ -12,12 +12,39 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
-.menu {
-  @include span-columns(12);
-}
-.menu ul {
-  @include span-columns(3 of 12);
+
+nav a {
+  @include span-columns(3);
   background-color: red;
+  text-align: center;
+  text-color: white;
+  height: 40px;
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+}
+.backgroundlogo {
+  @include span-columns(12);
+  background-image: url("../img/top-image.png");
+
+}
+h1 {
+
+}
+.article {
+  @include span-columns(12);
+  border-width: medium;
+  border-color: white;
+  background-color: white;
+}
+.article .articlesub {
+  @include span-columns(4 of 12);
+}
+
+.article a {
+  text-decoration: none;
+  color: red;
   text-align: center;
 }
 ul {
