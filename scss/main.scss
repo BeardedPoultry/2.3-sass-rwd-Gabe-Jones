@@ -1,3 +1,7 @@
+$visual-grid: true;
+
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
 
 * {
   margin: 0;
@@ -5,20 +9,22 @@
 
 body {
   background: url("../img/bg.jpg");
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .menu {
-  @include outer-container;
   @include span-columns(12);
 }
-.menu li {
-  @include span-columns(3);
+.menu ul {
+  @include span-columns(3 of 12);
+  background-color: red;
+  text-align: center;
 }
 ul {
   display: inline-block;
   height: 5%;
   list-style-type: none;
+  float: right;
 }
 .socialLinkTop {
   display: inline-block;
@@ -35,7 +41,13 @@ ul {
   box-shadow-color: white;
 
 }
-
+.skateboardcont {
+  background-color: white;
+  @include span-columns(12);
+}
+.skateboardcont img {
+  padding: 18px;
+}
 .facebook {
   background-color: rgba(69, 90, 149, 1);
 }
